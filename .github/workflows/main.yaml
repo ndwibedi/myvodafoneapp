@@ -7,10 +7,6 @@ jobs:
       - run: |
           echo "Build Job is going on"
           sleep 20
-<<<<<<< HEAD
-=======
-
->>>>>>> 8f7239db2f8131139e31c0031be99ed4657a8abc
   test:
     runs-on: ubuntu-latest
     needs: build
@@ -18,10 +14,6 @@ jobs:
       - run: |
           echo "test Job is going on"
           sleep 20
-<<<<<<< HEAD
-=======
-
->>>>>>> 8f7239db2f8131139e31c0031be99ed4657a8abc
   oast-retire:
     runs-on: ubuntu-latest
     needs: test
@@ -47,9 +39,3 @@ jobs:
       - run: |
           echo "deployment Job is going on"
           sleep 20
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 8f7239db2f8131139e31c0031be99ed4657a8abc
