@@ -36,7 +36,6 @@ jobs:
         with:
           name: RetireJS-Output-File
           path: retire_output.json
-          path: retire-output.json
         if: always()
 
   oast-safety:
